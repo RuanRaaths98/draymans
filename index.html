@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Drayman's alcohol beverages landing page." />
+  <title>Drayman's Beverages</title>
+  <!-- Meta Pixel Code -->
+  <script>
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return; n = f.fbq = function () {
+        n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+      n.queue = []; t = b.createElement(e); t.async = !0;
+      t.src = v; s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '647273967778956');
+    fbq('track', 'PageView');
+  </script>
+  <!-- End Meta Pixel Code -->
+  <link rel="preload" href="assets/hero-product-photo-optimized.jpg" as="image" />
+  <link rel="preload" href="assets/draymans-logo.avif" as="image" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <noscript>
+    <img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=647273967778956&ev=PageView&noscript=1" alt="" />
+  </noscript>
+  <main class="landing" aria-label="Drayman's alcohol beverages">
+    <section class="hero" data-tilt>
+      <div class="hero__frame">
+        <div class="hero__content">
+          <div class="hero__copy">
+            <img class="hero__brand-logo" src="assets/draymans-logo.avif" alt="Drayman's Brewery and Distillery" />
+
+            <div class="hero__headline">
+              <p class="hero__headline-main">We want you to</p>
+              <h1>try our craft beers for <span>FREE</span></h1>
+            </div>
+
+            <div class="hero__side hero__side--left">
+              <p class="hero__new">New!</p>
+              <p class="hero__discover">Discover</p>
+              <p class="hero__new hero__new--wide">Something new</p>
+              <dl class="hero__stats">
+                <div>
+                  <dt>4%+</dt>
+                  <dd>ABV</dd>
+                </div>
+                <div>
+                  <dt>12+</dt>
+                  <dd>IBUS</dd>
+                </div>
+                <div>
+                  <dt>3</dt>
+                  <dd>Styles</dd>
+                </div>
+              </dl>
+            </div>
+
+            <div class="hero__side hero__side--right">
+              <div class="hero__mic" aria-hidden="true"></div>
+              <p>Available in stores<br />&amp; our taproom</p>
+            </div>
+
+            <div class="hero__actions" aria-label="Drayman's actions">
+              <a class="hero__button hero__button--primary" href="https://draymans.com/"
+                aria-label="Buy from online shop">
+                Buy from online shop
+              </a>
+              <a class="hero__button hero__button--secondary" href="#sponsor-title" aria-label="Enter Our Competition">
+                Enter Our Competition
+              </a>
+            </div>
+          </div>
+
+          <figure class="hero__products" aria-label="Drayman's beverage cans">
+            <img src="assets/hero-product-photo-optimized.jpg" width="1376" height="768" decoding="async"
+              fetchpriority="high" alt="Drayman's alcohol beverages on a brewery counter" />
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <aside class="responsibility-banner" aria-label="Responsible drinking notice">
+      Not for sale to persons under the age of 18. Please drink responsibly.
+    </aside>
+
+    <section class="product-showcase" aria-label="Drayman's product showcase">
+      <figure class="product-showcase__item">
+        <img src="assets/showcase-1-optimized.jpg" width="933" height="1400" loading="lazy" decoding="async"
+          alt="Drayman's bottled beer chilled on ice" />
+      </figure>
+      <figure class="product-showcase__item">
+        <img src="assets/showcase-2-optimized.jpg" width="933" height="1400" loading="lazy" decoding="async"
+          alt="Drayman's Cherry Ale can with bottled beers on ice" />
+      </figure>
+      <figure class="product-showcase__item">
+        <img src="assets/showcase-3-optimized.jpg" width="933" height="1400" loading="lazy" decoding="async"
+          alt="Drayman's Kaizen Lager can chilled on ice" />
+      </figure>
+      <figure class="product-showcase__item">
+        <img src="assets/showcase-4-optimized.jpg" width="933" height="1400" loading="lazy" decoding="async"
+          alt="Drayman's bottled beer with Cherry Ale can" />
+      </figure>
+    </section>
+
+    <section class="sponsor section-reveal" aria-labelledby="sponsor-title">
+      <div class="sponsor__mark" aria-hidden="true">D</div>
+      <div class="sponsor__inner">
+        <div class="sponsor__intro">
+          <h1 id="sponsor-title">Tell us why we should send you our beer.</h1>
+          <p class="sponsor__copy">
+            We want more people to try Drayman's craft beers. Fill in the form and tell us why
+            we should send some your way.
+          </p>
+          <p class="sponsor__disclaimer">
+            Winners will receive Drayman's beer to taste and share responsibly.
+          </p>
+        </div>
+
+        <form class="sponsor-form" action="https://formspree.io/f/xyklqqad" method="POST"
+          aria-label="Beer competition application">
+          <div class="form-grid">
+            <label class="field">
+              <span>Name</span>
+              <input name="name" type="text" autocomplete="given-name" required />
+            </label>
+            <label class="field">
+              <span>Surname</span>
+              <input name="surname" type="text" autocomplete="family-name" required />
+            </label>
+            <label class="field">
+              <span>Email</span>
+              <input name="email" type="email" autocomplete="email" required />
+            </label>
+            <label class="field">
+              <span>Cell phone number</span>
+              <input name="phone" type="tel" autocomplete="tel" required />
+            </label>
+          </div>
+
+          <label class="field field--wide">
+            <span>What beer would you like to try most?</span>
+            <select name="beer_preference" required>
+              <option value="">Choose your beer</option>
+              <option value="Cherry Ale">Cherry Ale</option>
+              <option value="Kaizen Lager">Kaizen Lager</option>
+              <option value="Berghof">Berghof</option>
+              <option value="Surprise me">Surprise me</option>
+            </select>
+          </label>
+
+          <label class="field field--wide">
+            <span>Why should we send you our beer?</span>
+            <textarea name="reason" rows="6" required
+              placeholder="Tell us why you want to try Drayman's, who you would share it with, and which beer sounds like your favourite."></textarea>
+          </label>
+
+          <label class="consent-check">
+            <input type="checkbox" name="marketing_consent" value="yes" required />
+            <span>I agree that Drayman's may use my information to send me news, offers, and updates about their craft beers. You can unsubscribe at any time.</span>
+          </label>
+
+          <div class="form-footer">
+            <p class="form-note">Selected entries may receive Drayman's beer to taste. Not for persons under 18.</p>
+            <button class="submit-button" type="submit">
+              <span>Send me FREE beer to try!</span>
+            </button>
+          </div>
+
+          <p class="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

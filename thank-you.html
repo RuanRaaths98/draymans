@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Thank you for entering the Drayman's beer competition." />
+  <title>Thank You | Drayman's Beverages</title>
+  <!-- Meta Pixel Code -->
+  <script>
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return; n = f.fbq = function () {
+        n.callMethod ?
+        n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+      n.queue = []; t = b.createElement(e); t.async = !0;
+      t.src = v; s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '647273967778956');
+    fbq('track', 'PageView');
+    fbq('track', 'Lead');
+  </script>
+  <!-- End Meta Pixel Code -->
+  <link rel="preload" href="assets/draymans-logo.avif" as="image" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <noscript>
+    <img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=647273967778956&ev=PageView&noscript=1" alt="" />
+    <img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=647273967778956&ev=Lead&noscript=1" alt="" />
+  </noscript>
+  <main class="thank-you" aria-labelledby="thank-you-title">
+    <section class="thank-you__panel">
+      <img class="thank-you__logo" src="assets/draymans-logo.avif" alt="Drayman's Brewery and Distillery" />
+      <p class="thank-you__eyebrow">Entry received</p>
+      <h1 id="thank-you-title">Thank you for entering.</h1>
+      <p class="thank-you__copy">
+        Your details have been sent to the Drayman's team. If your entry is selected,
+        we will be in touch.
+      </p>
+      <p class="thank-you__notice">Not for persons under 18. Please drink responsibly.</p>
+      <a class="thank-you__button" href="/">Back to the offer</a>
+    </section>
+  </main>
+</body>
+
+</html>
